@@ -239,7 +239,9 @@ startBtn.addEventListener("click",(event)=>{
     if(!playing){
 
     startBtn.disabled = true;
-
+    
+        playProgress();
+        
     resultText.innerText = "3";
 
     setTimeout(()=>{
