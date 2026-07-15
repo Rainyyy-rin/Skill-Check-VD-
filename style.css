@@ -1,0 +1,47 @@
+body{
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40vh;
+}
+
+#circle{
+    width:200px;
+    height:200px;
+    border:2px solid white;
+    border-radius:50%;
+    position:relative;
+}
+
+#skillZone{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    left:-25px;
+    top:-25px;
+}
+
+#startBtn{
+
+    margin-top:160px;
+    padding:10px 35px;
+
+    font-size:20px;
+
+    background:#222;
+
+    color:green;
+
+    border:2px solid white;
+
+    border-radius:8px;
+
+}
